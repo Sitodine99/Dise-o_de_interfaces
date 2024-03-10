@@ -14,6 +14,6 @@ El frame anterior tiene que tener al menos:
     - Etiqueta
     - Campo de texto
     - Botón
-    - El usuario introduce un "Nombre" y al oulsar ok, se muestra una ventana con el saludo.
+    - El usuario introduce un "Nombre" y al pulsar ok, se muestra una ventana con el saludo.
 
 
