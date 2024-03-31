@@ -16,4 +16,6 @@ El frame anterior tiene que tener al menos:
     - Botón
     - El usuario introduce un "Nombre" y al pulsar ok, se muestra una ventana con el saludo.
 
+[Ejercicios propuestos en clase 03 y 03.1](Propuesta_de_ejercicio_03_03.1.java) - Crea un formulario y añádele funcionalidad al botón aceptar; para que después de rellenar los datos, al pulsar Aceptar, de la bienvenida al usuario.
+
 
