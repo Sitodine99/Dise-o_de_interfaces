@@ -1,0 +1,42 @@
+﻿<Window x:Class="Ejercicio_06.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio_06"
+        mc:Ignorable="d"
+        Title="Ejercicio 6 RGB" Height="300" Width="400">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="70"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Content="Selecciona un color RGB:" FontSize="24" HorizontalAlignment="Center"/>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="90"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Rojo" Grid.Row="0" Grid.Column="0" FontSize="20" HorizontalAlignment="Center"/>
+            <ComboBox x:Name ="comboRojo" Grid.Row="0" Grid.Column="1" Width="Auto"/>
+
+            <Label Content="Verde" Grid.Row="1" Grid.Column="0" FontSize="20" HorizontalAlignment="Center"/>
+            <ComboBox x:Name ="comboVerde" Grid.Row="1" Grid.Column="1" Width="Auto"/>
+
+            <Label Content="Azul" Grid.Row="2" Grid.Column="0" FontSize="20" HorizontalAlignment="Center"/>
+            <ComboBox x:Name ="comboAzul" Grid.Row="2" Grid.Column="1" Width="Auto"/>
+
+        </Grid>
+
+        <Button x:Name="btnPinta" Content="Pinta color" Grid.Row="2" Width="300" Margin="0,10,0,10" FontSize="20" FontFamily="Avenir" HorizontalAlignment="Center" Grid.ColumnSpan="2" Click="btnPinta_Click"/>
+
+    </Grid>
+</Window>
