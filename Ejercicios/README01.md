@@ -26,3 +26,5 @@ Ejercicio propuesto en clase 06 - Crea la interfaz para elegir valores de rojo, 
 
 [Ejercicio propuesto en clase 08](EjercicioPropuesto8.java) - Ejercicio JRadioButton y ChangeListener para cambiar tamaño ventana.
 
+ [Ejercicio propuesto en clase 09](Ejercicio_09.java) - Ejercicio jOptionPane, escribe una URL de la que quieras saber la IP.
+
