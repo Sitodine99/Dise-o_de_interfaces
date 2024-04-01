@@ -1,4 +1,4 @@
-# Ejercicios de Diseño de Interfaces - JAVA
+# UF1 - Diseño e implementación de interfaces - JAVA
 
 
 [Ejercicios prouestos en clase 01 y 02](Propuesta_de_ejercicio_01_02.java) - Crea un JFrame con las siguientes características:
