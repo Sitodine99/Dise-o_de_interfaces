@@ -20,3 +20,5 @@ El frame anterior tiene que tener al menos:
 
 Ejercicio propuesto en clase 04 y 05 - Crea la interfaz de una calculadora en una ventana de 300x300. Añade la funcionalidad Button_Click y programa la calculadora - [xaml](MainWindow.xaml) - [xaml.cs](MainWindow.xaml.cs)
 
+Ejercicio propuesto en clase 06 - Crea la interfaz para elegir valores de rojo, verde y azul (RGB) y cambiar el color del botón con el color elegido, en una ventana de 300x400 - [xaml](06MainWindow.xaml) - [xaml.cs](MainWindow.xaml.cs)
+
