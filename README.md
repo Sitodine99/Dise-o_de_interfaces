@@ -22,3 +22,5 @@ Ejercicio propuesto en clase 04 y 05 - Crea la interfaz de una calculadora en un
 
 Ejercicio propuesto en clase 06 - Crea la interfaz para elegir valores de rojo, verde y azul (RGB) y cambiar el color del botón con el color elegido, en una ventana de 300x400 - [xaml](06MainWindow.xaml) - [xaml.cs](MainWindow.xaml.cs)
 
+[Ejercicio propuesto en clase 07](ComboRGB.java) - Usando NetBeans; a partir de los valores RGB seleccionados, configurar el color de fondo del botón "Pintar botón".
+
